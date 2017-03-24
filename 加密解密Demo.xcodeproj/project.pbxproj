@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E005DCD1DBF24440098F1C2 /* NSData+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E005DCC1DBF24440098F1C2 /* NSData+AES256.m */; };
+		6E005DD01DBF24D20098F1C2 /* NSString+AES256.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E005DCF1DBF24D20098F1C2 /* NSString+AES256.m */; };
+		6E6142111DCADDBA0082A661 /* DES3Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6142101DCADDBA0082A661 /* DES3Util.m */; };
+		6E6A6E3F1DBDF6F0007D2FF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6A6E3E1DBDF6F0007D2FF7 /* main.m */; };
+		6E6A6E421DBDF6F0007D2FF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6A6E411DBDF6F0007D2FF7 /* AppDelegate.m */; };
+		6E6A6E451DBDF6F0007D2FF7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6A6E441DBDF6F0007D2FF7 /* ViewController.m */; };
+		6E6A6E481DBDF6F0007D2FF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E6A6E461DBDF6F0007D2FF7 /* Main.storyboard */; };
+		6E6A6E4A1DBDF6F0007D2FF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E6A6E491DBDF6F0007D2FF7 /* Assets.xcassets */; };
+		6E6A6E4D1DBDF6F0007D2FF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E6A6E4B1DBDF6F0007D2FF7 /* LaunchScreen.storyboard */; };
+		6E6A6E551DBE0792007D2FF7 /* 77.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E6A6E541DBE0792007D2FF7 /* 77.jpg */; };
+		6E8DA6071DCC95EC00FB437A /* VideoVR.json in Resources */ = {isa = PBXBuildFile; fileRef = 6E8DA6061DCC95EC00FB437A /* VideoVR.json */; };
+		F2583E02BB8BB4B5B9169406 /* libPods-加密解密Demo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 260B8D5A3A35236E370C6426 /* libPods-加密解密Demo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		260B8D5A3A35236E370C6426 /* libPods-加密解密Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-加密解密Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E005DCB1DBF24440098F1C2 /* NSData+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES256.h"; sourceTree = "<group>"; };
+		6E005DCC1DBF24440098F1C2 /* NSData+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES256.m"; sourceTree = "<group>"; };
+		6E005DCE1DBF24D20098F1C2 /* NSString+AES256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AES256.h"; sourceTree = "<group>"; };
+		6E005DCF1DBF24D20098F1C2 /* NSString+AES256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AES256.m"; sourceTree = "<group>"; };
+		6E61420F1DCADDBA0082A661 /* DES3Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DES3Util.h; sourceTree = "<group>"; };
+		6E6142101DCADDBA0082A661 /* DES3Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DES3Util.m; sourceTree = "<group>"; };
+		6E6A6E3A1DBDF6F0007D2FF7 /* 加密解密Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "加密解密Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E6A6E3E1DBDF6F0007D2FF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E6A6E401DBDF6F0007D2FF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6E6A6E411DBDF6F0007D2FF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6E6A6E431DBDF6F0007D2FF7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6E6A6E441DBDF6F0007D2FF7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6E6A6E471DBDF6F0007D2FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6E6A6E491DBDF6F0007D2FF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E6A6E4C1DBDF6F0007D2FF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6E6A6E4E1DBDF6F0007D2FF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E6A6E541DBE0792007D2FF7 /* 77.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 77.jpg; sourceTree = "<group>"; };
+		6E8DA6061DCC95EC00FB437A /* VideoVR.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = VideoVR.json; sourceTree = "<group>"; };
+		8E33FFA7A16B8D6732C83674 /* Pods-加密解密Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-加密解密Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-加密解密Demo/Pods-加密解密Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		DCA4589243ED70E714400483 /* Pods-加密解密Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-加密解密Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-加密解密Demo/Pods-加密解密Demo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E6A6E371DBDF6F0007D2FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2583E02BB8BB4B5B9169406 /* libPods-加密解密Demo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E6A6E311DBDF6F0007D2FF7 = {
+			isa = PBXGroup;
+			children = (
+				6E6A6E3C1DBDF6F0007D2FF7 /* 加密解密Demo */,
+				6E6A6E3B1DBDF6F0007D2FF7 /* Products */,
+				BF55BB4A4DBB455C4EB9505D /* Pods */,
+				E7F94716BD81ABDC2ABE73E7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6E6A6E3B1DBDF6F0007D2FF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E6A6E3A1DBDF6F0007D2FF7 /* 加密解密Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E6A6E3C1DBDF6F0007D2FF7 /* 加密解密Demo */ = {
+			isa = PBXGroup;
+			children = (
+				6E6A6E401DBDF6F0007D2FF7 /* AppDelegate.h */,
+				6E6A6E411DBDF6F0007D2FF7 /* AppDelegate.m */,
+				6E6A6E431DBDF6F0007D2FF7 /* ViewController.h */,
+				6E6A6E441DBDF6F0007D2FF7 /* ViewController.m */,
+				6E61420F1DCADDBA0082A661 /* DES3Util.h */,
+				6E6142101DCADDBA0082A661 /* DES3Util.m */,
+				6E005DCB1DBF24440098F1C2 /* NSData+AES256.h */,
+				6E005DCC1DBF24440098F1C2 /* NSData+AES256.m */,
+				6E005DCE1DBF24D20098F1C2 /* NSString+AES256.h */,
+				6E005DCF1DBF24D20098F1C2 /* NSString+AES256.m */,
+				6E8DA6061DCC95EC00FB437A /* VideoVR.json */,
+				6E6A6E461DBDF6F0007D2FF7 /* Main.storyboard */,
+				6E6A6E491DBDF6F0007D2FF7 /* Assets.xcassets */,
+				6E6A6E4B1DBDF6F0007D2FF7 /* LaunchScreen.storyboard */,
+				6E6A6E4E1DBDF6F0007D2FF7 /* Info.plist */,
+				6E6A6E541DBE0792007D2FF7 /* 77.jpg */,
+				6E6A6E3D1DBDF6F0007D2FF7 /* Supporting Files */,
+			);
+			path = "加密解密Demo";
+			sourceTree = "<group>";
+		};
+		6E6A6E3D1DBDF6F0007D2FF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E6A6E3E1DBDF6F0007D2FF7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF55BB4A4DBB455C4EB9505D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8E33FFA7A16B8D6732C83674 /* Pods-加密解密Demo.debug.xcconfig */,
+				DCA4589243ED70E714400483 /* Pods-加密解密Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E7F94716BD81ABDC2ABE73E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				260B8D5A3A35236E370C6426 /* libPods-加密解密Demo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E6A6E391DBDF6F0007D2FF7 /* 加密解密Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E6A6E511DBDF6F0007D2FF7 /* Build configuration list for PBXNativeTarget "加密解密Demo" */;
+			buildPhases = (
+				3C9FFC819EFA8B3E6193006A /* [CP] Check Pods Manifest.lock */,
+				6E6A6E361DBDF6F0007D2FF7 /* Sources */,
+				6E6A6E371DBDF6F0007D2FF7 /* Frameworks */,
+				6E6A6E381DBDF6F0007D2FF7 /* Resources */,
+				C5E5C3EB1DACDA65BDC49883 /* [CP] Embed Pods Frameworks */,
+				D7FC8CFE775F2955B15064FB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "加密解密Demo";
+			productName = "加密解密Demo";
+			productReference = 6E6A6E3A1DBDF6F0007D2FF7 /* 加密解密Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E6A6E321DBDF6F0007D2FF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Invisionhealth Digital Inc.";
+				TargetAttributes = {
+					6E6A6E391DBDF6F0007D2FF7 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 8G5LBS7QP6;
+					};
+				};
+			};
+			buildConfigurationList = 6E6A6E351DBDF6F0007D2FF7 /* Build configuration list for PBXProject "加密解密Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E6A6E311DBDF6F0007D2FF7;
+			productRefGroup = 6E6A6E3B1DBDF6F0007D2FF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E6A6E391DBDF6F0007D2FF7 /* 加密解密Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E6A6E381DBDF6F0007D2FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E6A6E4D1DBDF6F0007D2FF7 /* LaunchScreen.storyboard in Resources */,
+				6E6A6E4A1DBDF6F0007D2FF7 /* Assets.xcassets in Resources */,
+				6E6A6E481DBDF6F0007D2FF7 /* Main.storyboard in Resources */,
+				6E6A6E551DBE0792007D2FF7 /* 77.jpg in Resources */,
+				6E8DA6071DCC95EC00FB437A /* VideoVR.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C9FFC819EFA8B3E6193006A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C5E5C3EB1DACDA65BDC49883 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-加密解密Demo/Pods-加密解密Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D7FC8CFE775F2955B15064FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-加密解密Demo/Pods-加密解密Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E6A6E361DBDF6F0007D2FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E005DD01DBF24D20098F1C2 /* NSString+AES256.m in Sources */,
+				6E6A6E451DBDF6F0007D2FF7 /* ViewController.m in Sources */,
+				6E6142111DCADDBA0082A661 /* DES3Util.m in Sources */,
+				6E6A6E421DBDF6F0007D2FF7 /* AppDelegate.m in Sources */,
+				6E005DCD1DBF24440098F1C2 /* NSData+AES256.m in Sources */,
+				6E6A6E3F1DBDF6F0007D2FF7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E6A6E461DBDF6F0007D2FF7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E6A6E471DBDF6F0007D2FF7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6E6A6E4B1DBDF6F0007D2FF7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E6A6E4C1DBDF6F0007D2FF7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E6A6E4F1DBDF6F0007D2FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E6A6E501DBDF6F0007D2FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E6A6E521DBDF6F0007D2FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E33FFA7A16B8D6732C83674 /* Pods-加密解密Demo.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "加密解密Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.invisionhealth.----Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6E6A6E531DBDF6F0007D2FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCA4589243ED70E714400483 /* Pods-加密解密Demo.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "加密解密Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.invisionhealth.----Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E6A6E351DBDF6F0007D2FF7 /* Build configuration list for PBXProject "加密解密Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E6A6E4F1DBDF6F0007D2FF7 /* Debug */,
+				6E6A6E501DBDF6F0007D2FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E6A6E511DBDF6F0007D2FF7 /* Build configuration list for PBXNativeTarget "加密解密Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E6A6E521DBDF6F0007D2FF7 /* Debug */,
+				6E6A6E531DBDF6F0007D2FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E6A6E321DBDF6F0007D2FF7 /* Project object */;
+}
